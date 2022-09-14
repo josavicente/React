@@ -22,7 +22,7 @@ describe('Pruebas en 05-funciones', () => {
             const nombre = 'Josa';
             const testUser = {
                   uid: 'ABC567',
-                  username: `${nombre}`
+                  username: nombre
             }
 
             const user = getUsuarioActivo(nombre);

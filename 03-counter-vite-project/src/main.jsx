@@ -8,6 +8,8 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
       <React.StrictMode>
-            <CounterApp  />
+            {/* <CounterApp  />
+             */}
+            <FirstApp title='Hola soy Vegeta!'/>
       </React.StrictMode>
 );

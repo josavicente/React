@@ -7,7 +7,10 @@ import PropTypes from 'prop-types';
 export const FirstApp = ( {title, message} ) => {
 
       return ( 
-      <><h1>{title}</h1><p>{message}</p></>
+      <>
+      <h1>{title}</h1>
+      <p>{message}</p>
+      </>
 )};
 
 FirstApp.propTypes = {
@@ -16,6 +19,6 @@ FirstApp.propTypes = {
 };
 
 FirstApp.defaultProps = {
-      title: 'No hay título',
+      // title: 'No hay título',
       message: 666
 }

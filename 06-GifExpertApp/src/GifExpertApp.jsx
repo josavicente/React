@@ -5,8 +5,9 @@
 //  const { data } = await resp.json(); 
 
 import { useState } from "react";
-import { AddCategory } from "./components/addCategory";
-import { GifGrid } from "./components/GifGrid";
+import { AddCategory, GifGrid } from "./components";
+// import { AddCategory } from "./components/addCategory";
+// import { GifGrid } from "./components/GifGrid";
 
 export const GifExpertApp = () => {
 

@@ -4,7 +4,7 @@
 export const CounterWithCustomHook = () => {
     return (
     <>
-        <h1>Counter with Hook: XXX</h1>;
+        <h1>Counter with Hook Test: XXX</h1>;
     </>
 
     )

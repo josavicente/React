@@ -14,17 +14,19 @@ import { CallBackHook } from './06-memos/CallBackHook'
 // import { HooksApp } from './HooksApp'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    {/* <CounterApp /> */}
-    {/* <CounterWithCustomHook /> */}
-    {/* <FormWithCustomHook/> */}
-    {/* <MultipleCustomHooks /> */}
-    {/* <FocusScreen /> */}
-    {/* <Layout /> */}
-    {/* <Memorize /> */}
-    {/* <MemorizeHook /> */}
-    {/* <CallBackHook /> */}
-    <Padre />
-  </React.StrictMode>
-)
+import './08-useReducer/intro-reducer';
+
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     {/* <CounterApp /> */}
+//     {/* <CounterWithCustomHook /> */}
+//     {/* <FormWithCustomHook/> */}
+//     {/* <MultipleCustomHooks /> */}
+//     {/* <FocusScreen /> */}
+//     {/* <Layout /> */}
+//     {/* <Memorize /> */}
+//     {/* <MemorizeHook /> */}
+//     {/* <CallBackHook /> */}
+//     {/* <Padre /> */}
+//   </React.StrictMode>
+// )

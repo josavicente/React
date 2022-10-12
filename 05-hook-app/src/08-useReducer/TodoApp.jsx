@@ -5,12 +5,12 @@ import { TodoList } from "./components/TodoList";
 
 export const TodoApp = () => {
 
-    const { todos, handleDeleteTodo, handleCompleteTodo, handleNewTodo, } = useTodo();
+    const { todos, todosCount, pendingTodosCount, handleDeleteTodo, handleCompleteTodo, handleNewTodo, } = useTodo();
     
     return (
         <>
             <h1>
-                Todo App (10),<small> pendientes: 2</small>
+                Todo App ({todos.length}),<small> pendientes: {}</small>
             </h1>
             <hr />
 
